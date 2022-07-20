@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Optional;
 
 @Service
-public class AddressBookServices {
+public class AddressBookServices implements IAddressBookService {
     @Autowired
     AddressBookRepository addressBookRepository;
 
